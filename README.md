@@ -1,4 +1,4 @@
-# cc65-c128-asm-prog
+# cc65-c128-asmprog
 cc65 examples from _Commodore 128 Assembly Language Programming_ (1986) by Mark Andrews.
 
 What is this?  Here are some links:
