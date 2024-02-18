@@ -21,9 +21,9 @@ typedef unsigned char uchar;
 
 #define VICSCN  ((uchar *) 0x0400)      // VIC 40-col text screen
 #define VICCOL  ((uchar *) 0xd800)      // VIC 40-col text screen
-#define D1PRA   ((uchar *) 0xdc00)      // VIC 40-col text screen
+#define D1PRA   ((uchar *) 0xdc00)      // Port A (joystick) status
 
-#define XY(x,y) (40*(y)+(x))            // base VICSCN/COL offset
+#define XY(x,y) (40*(y)+(x))            // base VICSCN offset
 
 // Start in the centre of the screen
 int x = 40/2;
@@ -112,10 +112,13 @@ int main()
 {
     screenInit();
 
+    // Run until the user presses Q
     do
     {
         readJoystick();
+
 #if 0
+        // Debug: x,y position at top-right
         gotoxy(33,0);
         cprintf("[%02d,%02d]", x, y);
 #endif

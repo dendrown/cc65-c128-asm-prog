@@ -2,6 +2,9 @@
 ch11/ballbounce/ballbounce
 ch11/joystick/joystick
 
+# Editor
+.*.swp
+
 # Prerequisites
 *.d
 
@@ -13,7 +16,6 @@ ch11/joystick/joystick
 
 # Linker output
 *.ilk
-*.lst
 *.map
 *.exp
 
@@ -47,9 +49,10 @@ ch11/joystick/joystick
 *.idb
 *.pdb
 
-# Kernel Module Compile Results
+# Module Compile Results
 *.mod*
 *.cmd
+*.lst
 .tmp_versions/
 modules.order
 Module.symvers
