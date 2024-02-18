@@ -1,6 +1,4 @@
-#   11
-##  Introducing Commodore 128 High-Resolution Graphics
-### And joystick operations
+## 11: Introducing Commodore 128 High-Resolution Graphics <sub>And joystick operations</sub>
 
 - Listing 11-1: ballbounce [BASIC => C : 1754 bytes : pp. 190-191]
 - Listing 11-2: joystick   [BASIC => C : 2016 bytes : pp. 194-195]
