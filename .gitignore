@@ -1,5 +1,6 @@
 # C128 executables
 ch11/ballbounce/ballbounce
+ch11/joystick/joystick
 
 # Prerequisites
 *.d
@@ -12,6 +13,7 @@ ch11/ballbounce/ballbounce
 
 # Linker output
 *.ilk
+*.lst
 *.map
 *.exp
 
