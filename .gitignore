@@ -1,6 +1,7 @@
 # C128 executables
 ch11/ballbounce/ballbounce
 ch11/joystick/joystick
+ch16/sprite
 
 # Editor
 .*.swp
